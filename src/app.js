@@ -10,8 +10,8 @@ app.use(express.json());
 
 app.use('/api/todos', todoRoutes);
 
-app.get('/', (req, res) => {
-  res.send('Todo API is running 🚀');
-});
+// app.get('/', (req, res) => {
+//   res.send('Todo API is running 🚀');
+// });
 
 module.exports = app;
